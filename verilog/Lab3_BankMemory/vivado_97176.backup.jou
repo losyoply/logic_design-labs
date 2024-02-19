@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Oct 26 10:34:30 2021
+# Process ID: 97176
+# Current directory: C:/Users/losyo/Desktop/verilog/Lab3_BankMemory
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4628 C:\Users\losyo\Desktop\verilog\Lab3_BankMemory\Lab3_BankMemory.xpr
+# Log file: C:/Users/losyo/Desktop/verilog/Lab3_BankMemory/vivado.log
+# Journal file: C:/Users/losyo/Desktop/verilog/Lab3_BankMemory\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/losyo/Desktop/verilog/Lab3_BankMemory/Lab3_BankMemory.xpr
+update_compile_order -fileset sources_1

@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/losyo/Desktop/verilog/Lab3_TeamX_FIFO_8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FIFO_8
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/losyo/Desktop/verilog/Lab3_FIFO_8/Lab3_FIFO_8.srcs/sources_1/new/FIFO_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_tb

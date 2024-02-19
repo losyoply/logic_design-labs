@@ -1,0 +1,12 @@
+
+{ 
+    crc :  15525259447232524214  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto ad3f8816541b4898ac29d125f702e792 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Lab4_TeamX_Scan_Chain_Design_tb_behav xil_defaultlib.Lab4_TeamX_Scan_Chain_Design_tb xil_defaultlib.glbl" , 
+    buildDate : "Nov 18 2020" , 
+    buildTime : "09:47:47" , 
+    linkCmd : "C:\\Xilinx\\Vivado\\2020.2\\data\\..\\tps\\mingw\\6.2.0\\win64.o\\nt\\bin\\gcc.exe -Wa,-W  -O -Wl,--stack,104857600 -o \"xsim.dir/Lab4_TeamX_Scan_Chain_Design_tb_behav/xsimk.exe\"   \"xsim.dir/Lab4_TeamX_Scan_Chain_Design_tb_behav/obj/xsim_0.win64.obj\" \"xsim.dir/Lab4_TeamX_Scan_Chain_Design_tb_behav/obj/xsim_1.win64.obj\" -L\"C:\\Xilinx\\Vivado\\2020.2\\lib\\win64.o\" -lrdi_simulator_kernel   -lrdi_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Nov 22 00:29:14 2021
+# Process ID: 129016
+# Current directory: C:/Users/losyo/Desktop/verilog/Lab5/Lab5_1/Lab5_1.runs/synth_1
+# Command line: vivado.exe -log TOP.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source TOP.tcl
+# Log file: C:/Users/losyo/Desktop/verilog/Lab5/Lab5_1/Lab5_1.runs/synth_1/TOP.vds
+# Journal file: C:/Users/losyo/Desktop/verilog/Lab5/Lab5_1/Lab5_1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source TOP.tcl -notrace

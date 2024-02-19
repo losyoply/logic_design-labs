@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Nov  9 15:48:26 2021
+# Process ID: 10940
+# Current directory: C:/Users/losyo/Desktop/verilog/Lab4/Lab4_Mealy_Sequence_Detector
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10460 C:\Users\losyo\Desktop\verilog\Lab4\Lab4_Mealy_Sequence_Detector\Lab4_Mealy_Sequence_Detector.xpr
+# Log file: C:/Users/losyo/Desktop/verilog/Lab4/Lab4_Mealy_Sequence_Detector/vivado.log
+# Journal file: C:/Users/losyo/Desktop/verilog/Lab4/Lab4_Mealy_Sequence_Detector\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/losyo/Desktop/verilog/Lab4/Lab4_Mealy_Sequence_Detector/Lab4_Mealy_Sequence_Detector.xpr
+update_compile_order -fileset sources_1
+file mkdir C:/Users/losyo/Desktop/verilog/Lab4/Lab4_Mealy_Sequence_Detector/Lab4_Mealy_Sequence_Detector.srcs/sources_1/new
+close [ open C:/Users/losyo/Desktop/verilog/Lab4/Lab4_Mealy_Sequence_Detector/Lab4_Mealy_Sequence_Detector.srcs/sources_1/new/Lab4_TeamX_Mealy_Sequence_Detector_t.v w ]
+add_files C:/Users/losyo/Desktop/verilog/Lab4/Lab4_Mealy_Sequence_Detector/Lab4_Mealy_Sequence_Detector.srcs/sources_1/new/Lab4_TeamX_Mealy_Sequence_Detector_t.v
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top Lab4_TeamX_Mealy_Sequence_Detector_t [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+source Lab4_TeamX_Mealy_Sequence_Detector_t.tcl
+close_sim

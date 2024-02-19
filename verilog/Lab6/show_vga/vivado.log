@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Dec 20 10:34:51 2021
+# Process ID: 19312
+# Current directory: C:/Users/losyo/Desktop/verilog/Lab6/show_vga
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20168 C:\Users\losyo\Desktop\verilog\Lab6\show_vga\show_vga.xpr
+# Log file: C:/Users/losyo/Desktop/verilog/Lab6/show_vga/vivado.log
+# Journal file: C:/Users/losyo/Desktop/verilog/Lab6/show_vga\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/losyo/Desktop/verilog/Lab6/show_vga/show_vga.xpr
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/losyo/Desktop/verilog/Lab6/show_vga/show_vga.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:08 . Memory (MB): peak = 1019.898 ; gain = 0.000
+update_compile_order -fileset sources_1
+close_project
+open_project C:/Users/losyo/Desktop/final_pro/lab_vga1/lab_vga.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Dec 20 11:31:56 2021...

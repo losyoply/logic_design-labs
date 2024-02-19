@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Oct 27 16:23:06 2021
+# Process ID: 111652
+# Current directory: C:/Users/losyo/Desktop/verilog/Lab3_BankMemory
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent94816 C:\Users\losyo\Desktop\verilog\Lab3_BankMemory\Lab3_BankMemory.xpr
+# Log file: C:/Users/losyo/Desktop/verilog/Lab3_BankMemory/vivado.log
+# Journal file: C:/Users/losyo/Desktop/verilog/Lab3_BankMemory\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/losyo/Desktop/verilog/Lab3_BankMemory/Lab3_BankMemory.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source Multi_Bank_tb.tcl
+current_wave_config {Untitled 1}
+add_wave {{/Multi_Bank_tb/mb/b0/s0}} 
+close_sim
+launch_simulation
+source Multi_Bank_tb.tcl
+close_sim
+launch_simulation
+source Multi_Bank_tb.tcl
+close_sim
+launch_simulation
+source Multi_Bank_tb.tcl
+close_sim

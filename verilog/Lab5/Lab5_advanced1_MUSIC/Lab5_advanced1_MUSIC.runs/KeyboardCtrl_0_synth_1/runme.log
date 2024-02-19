@@ -1,0 +1,77 @@
+
+*** Running vivado
+    with args -log KeyboardCtrl_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source KeyboardCtrl_0.tcl
+
+
+
+****** Vivado v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source KeyboardCtrl_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/losyo/Desktop/verilog/Lab5/Keyboard Sample Code/Keyboard Sample Code/Keyboard Sample Code/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is c:/Users/losyo/Desktop/verilog/Lab5/Lab5_advanced1_MUSIC/Lab5_advanced1_MUSIC.cache/ip 
+Command: synth_design -top KeyboardCtrl_0 -part xc7a35tcpg236-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 34232
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [c:/Users/losyo/Desktop/verilog/Lab5/Lab5_advanced1_MUSIC/Lab5_advanced1_MUSIC.gen/sources_1/ip/KeyboardCtrl_0/src/Ps2Interface.v:191]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [c:/Users/losyo/Desktop/verilog/Lab5/Lab5_advanced1_MUSIC/Lab5_advanced1_MUSIC.gen/sources_1/ip/KeyboardCtrl_0/src/Ps2Interface.v:192]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [c:/Users/losyo/Desktop/verilog/Lab5/Lab5_advanced1_MUSIC/Lab5_advanced1_MUSIC.gen/sources_1/ip/KeyboardCtrl_0/src/Ps2Interface.v:193]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [c:/Users/losyo/Desktop/verilog/Lab5/Lab5_advanced1_MUSIC/Lab5_advanced1_MUSIC.gen/sources_1/ip/KeyboardCtrl_0/src/Ps2Interface.v:194]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [c:/Users/losyo/Desktop/verilog/Lab5/Lab5_advanced1_MUSIC/Lab5_advanced1_MUSIC.gen/sources_1/ip/KeyboardCtrl_0/src/Ps2Interface.v:229]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [c:/Users/losyo/Desktop/verilog/Lab5/Lab5_advanced1_MUSIC/Lab5_advanced1_MUSIC.gen/sources_1/ip/KeyboardCtrl_0/src/Ps2Interface.v:231]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [c:/Users/losyo/Desktop/verilog/Lab5/Lab5_advanced1_MUSIC/Lab5_advanced1_MUSIC.gen/sources_1/ip/KeyboardCtrl_0/src/Ps2Interface.v:232]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [c:/Users/losyo/Desktop/verilog/Lab5/Lab5_advanced1_MUSIC/Lab5_advanced1_MUSIC.gen/sources_1/ip/KeyboardCtrl_0/src/Ps2Interface.v:233]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [c:/Users/losyo/Desktop/verilog/Lab5/Lab5_advanced1_MUSIC/Lab5_advanced1_MUSIC.gen/sources_1/ip/KeyboardCtrl_0/src/Ps2Interface.v:234]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [c:/Users/losyo/Desktop/verilog/Lab5/Lab5_advanced1_MUSIC/Lab5_advanced1_MUSIC.gen/sources_1/ip/KeyboardCtrl_0/src/Ps2Interface.v:235]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [c:/Users/losyo/Desktop/verilog/Lab5/Lab5_advanced1_MUSIC/Lab5_advanced1_MUSIC.gen/sources_1/ip/KeyboardCtrl_0/src/Ps2Interface.v:236]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [c:/Users/losyo/Desktop/verilog/Lab5/Lab5_advanced1_MUSIC/Lab5_advanced1_MUSIC.gen/sources_1/ip/KeyboardCtrl_0/src/Ps2Interface.v:237]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [c:/Users/losyo/Desktop/verilog/Lab5/Lab5_advanced1_MUSIC/Lab5_advanced1_MUSIC.gen/sources_1/ip/KeyboardCtrl_0/src/Ps2Interface.v:238]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [c:/Users/losyo/Desktop/verilog/Lab5/Lab5_advanced1_MUSIC/Lab5_advanced1_MUSIC.gen/sources_1/ip/KeyboardCtrl_0/src/Ps2Interface.v:239]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [c:/Users/losyo/Desktop/verilog/Lab5/Lab5_advanced1_MUSIC/Lab5_advanced1_MUSIC.gen/sources_1/ip/KeyboardCtrl_0/src/Ps2Interface.v:240]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [c:/Users/losyo/Desktop/verilog/Lab5/Lab5_advanced1_MUSIC/Lab5_advanced1_MUSIC.gen/sources_1/ip/KeyboardCtrl_0/src/Ps2Interface.v:241]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [c:/Users/losyo/Desktop/verilog/Lab5/Lab5_advanced1_MUSIC/Lab5_advanced1_MUSIC.gen/sources_1/ip/KeyboardCtrl_0/src/Ps2Interface.v:242]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [c:/Users/losyo/Desktop/verilog/Lab5/Lab5_advanced1_MUSIC/Lab5_advanced1_MUSIC.gen/sources_1/ip/KeyboardCtrl_0/src/Ps2Interface.v:243]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [c:/Users/losyo/Desktop/verilog/Lab5/Lab5_advanced1_MUSIC/Lab5_advanced1_MUSIC.gen/sources_1/ip/KeyboardCtrl_0/src/Ps2Interface.v:244]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [c:/Users/losyo/Desktop/verilog/Lab5/Lab5_advanced1_MUSIC/Lab5_advanced1_MUSIC.gen/sources_1/ip/KeyboardCtrl_0/src/Ps2Interface.v:245]
+WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl_0 with formal parameter declaration list [c:/Users/losyo/Desktop/verilog/Lab5/Lab5_advanced1_MUSIC/Lab5_advanced1_MUSIC.gen/sources_1/ip/KeyboardCtrl_0/src/KeyboardCtrl.v:18]
+WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl_0 with formal parameter declaration list [c:/Users/losyo/Desktop/verilog/Lab5/Lab5_advanced1_MUSIC/Lab5_advanced1_MUSIC.gen/sources_1/ip/KeyboardCtrl_0/src/KeyboardCtrl.v:19]
+WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl_0 with formal parameter declaration list [c:/Users/losyo/Desktop/verilog/Lab5/Lab5_advanced1_MUSIC/Lab5_advanced1_MUSIC.gen/sources_1/ip/KeyboardCtrl_0/src/KeyboardCtrl.v:20]
+WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl_0 with formal parameter declaration list [c:/Users/losyo/Desktop/verilog/Lab5/Lab5_advanced1_MUSIC/Lab5_advanced1_MUSIC.gen/sources_1/ip/KeyboardCtrl_0/src/KeyboardCtrl.v:21]
+WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl_0 with formal parameter declaration list [c:/Users/losyo/Desktop/verilog/Lab5/Lab5_advanced1_MUSIC/Lab5_advanced1_MUSIC.gen/sources_1/ip/KeyboardCtrl_0/src/KeyboardCtrl.v:22]
+WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl_0 with formal parameter declaration list [c:/Users/losyo/Desktop/verilog/Lab5/Lab5_advanced1_MUSIC/Lab5_advanced1_MUSIC.gen/sources_1/ip/KeyboardCtrl_0/src/KeyboardCtrl.v:23]
+WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl_0 with formal parameter declaration list [c:/Users/losyo/Desktop/verilog/Lab5/Lab5_advanced1_MUSIC/Lab5_advanced1_MUSIC.gen/sources_1/ip/KeyboardCtrl_0/src/KeyboardCtrl.v:24]
+WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl_0 with formal parameter declaration list [c:/Users/losyo/Desktop/verilog/Lab5/Lab5_advanced1_MUSIC/Lab5_advanced1_MUSIC.gen/sources_1/ip/KeyboardCtrl_0/src/KeyboardCtrl.v:26]
+WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl_0 with formal parameter declaration list [c:/Users/losyo/Desktop/verilog/Lab5/Lab5_advanced1_MUSIC/Lab5_advanced1_MUSIC.gen/sources_1/ip/KeyboardCtrl_0/src/KeyboardCtrl.v:27]
+WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl_0 with formal parameter declaration list [c:/Users/losyo/Desktop/verilog/Lab5/Lab5_advanced1_MUSIC/Lab5_advanced1_MUSIC.gen/sources_1/ip/KeyboardCtrl_0/src/KeyboardCtrl.v:28]
+WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl_0 with formal parameter declaration list [c:/Users/losyo/Desktop/verilog/Lab5/Lab5_advanced1_MUSIC/Lab5_advanced1_MUSIC.gen/sources_1/ip/KeyboardCtrl_0/src/KeyboardCtrl.v:29]
+WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl_0 with formal parameter declaration list [c:/Users/losyo/Desktop/verilog/Lab5/Lab5_advanced1_MUSIC/Lab5_advanced1_MUSIC.gen/sources_1/ip/KeyboardCtrl_0/src/KeyboardCtrl.v:31]
+WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl_0 with formal parameter declaration list [c:/Users/losyo/Desktop/verilog/Lab5/Lab5_advanced1_MUSIC/Lab5_advanced1_MUSIC.gen/sources_1/ip/KeyboardCtrl_0/src/KeyboardCtrl.v:32]
+WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl_0 with formal parameter declaration list [c:/Users/losyo/Desktop/verilog/Lab5/Lab5_advanced1_MUSIC/Lab5_advanced1_MUSIC.gen/sources_1/ip/KeyboardCtrl_0/src/KeyboardCtrl.v:33]
+WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl_0 with formal parameter declaration list [c:/Users/losyo/Desktop/verilog/Lab5/Lab5_advanced1_MUSIC/Lab5_advanced1_MUSIC.gen/sources_1/ip/KeyboardCtrl_0/src/KeyboardCtrl.v:34]
+WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl_0 with formal parameter declaration list [c:/Users/losyo/Desktop/verilog/Lab5/Lab5_advanced1_MUSIC/Lab5_advanced1_MUSIC.gen/sources_1/ip/KeyboardCtrl_0/src/KeyboardCtrl.v:35]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module KeyboardCtrl_0 [c:/Users/losyo/Desktop/verilog/Lab5/Lab5_advanced1_MUSIC/Lab5_advanced1_MUSIC.gen/sources_1/ip/KeyboardCtrl_0/synth/KeyboardCtrl_0.v:57]
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1015.473 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'KeyboardCtrl_0' [c:/Users/losyo/Desktop/verilog/Lab5/Lab5_advanced1_MUSIC/Lab5_advanced1_MUSIC.gen/sources_1/ip/KeyboardCtrl_0/synth/KeyboardCtrl_0.v:57]
+ERROR: [Synth 8-439] module 'KeyboardCtrl' not found [c:/Users/losyo/Desktop/verilog/Lab5/Lab5_advanced1_MUSIC/Lab5_advanced1_MUSIC.gen/sources_1/ip/KeyboardCtrl_0/synth/KeyboardCtrl_0.v:81]
+	Parameter SYSCLK_FREQUENCY_HZ bound to: 32'sb00000101111101011110000100000000 
+ERROR: [Synth 8-6156] failed synthesizing module 'KeyboardCtrl_0' [c:/Users/losyo/Desktop/verilog/Lab5/Lab5_advanced1_MUSIC/Lab5_advanced1_MUSIC.gen/sources_1/ip/KeyboardCtrl_0/synth/KeyboardCtrl_0.v:57]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1015.473 ; gain = 0.000
+---------------------------------------------------------------------------------
+synthesize failed
+INFO: [Common 17-83] Releasing license: Synthesis
+9 Infos, 37 Warnings, 1 Critical Warnings and 3 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Vivado Synthesis failed
+INFO: [Common 17-206] Exiting Vivado at Wed Nov 24 14:35:03 2021...

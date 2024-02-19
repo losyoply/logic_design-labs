@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Dec 20 10:34:51 2021
+# Process ID: 19312
+# Current directory: C:/Users/losyo/Desktop/verilog/Lab6/show_vga
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20168 C:\Users\losyo\Desktop\verilog\Lab6\show_vga\show_vga.xpr
+# Log file: C:/Users/losyo/Desktop/verilog/Lab6/show_vga/vivado.log
+# Journal file: C:/Users/losyo/Desktop/verilog/Lab6/show_vga\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/losyo/Desktop/verilog/Lab6/show_vga/show_vga.xpr
+update_compile_order -fileset sources_1
+close_project
+open_project C:/Users/losyo/Desktop/final_pro/lab_vga1/lab_vga.xpr
+update_compile_order -fileset sources_1

@@ -1,0 +1,7 @@
+Running: xsim.dir/Multi_Bank_Memory_t_behav/xsimk.exe -simmode gui -wdb Multi_Bank_Memory_t_behav.wdb -simrunnum 0 -socket 58285
+Design successfully loaded
+Design Loading Memory Usage: 6200 KB (Peak: 6200 KB)
+Design Loading CPU Usage: 46 ms
+Simulation completed
+Simulation Memory Usage: 6848 KB (Peak: 6848 KB)
+Simulation CPU Usage: 124 ms

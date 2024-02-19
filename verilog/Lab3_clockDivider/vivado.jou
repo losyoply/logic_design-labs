@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Nov  3 12:45:10 2021
+# Process ID: 184060
+# Current directory: C:/Users/losyo/Desktop/verilog/Lab3_clockDivider
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent163048 C:\Users\losyo\Desktop\verilog\Lab3_clockDivider\Lab3_clockDivider.xpr
+# Log file: C:/Users/losyo/Desktop/verilog/Lab3_clockDivider/vivado.log
+# Journal file: C:/Users/losyo/Desktop/verilog/Lab3_clockDivider\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/losyo/Desktop/verilog/Lab3_clockDivider/Lab3_clockDivider.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source Clock_Divider_t.tcl
+close_sim

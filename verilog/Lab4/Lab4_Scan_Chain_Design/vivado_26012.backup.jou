@@ -1,0 +1,85 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Nov  7 23:05:44 2021
+# Process ID: 26012
+# Current directory: C:/Users/losyo/Desktop/verilog/Lab4/Lab4_Scan_Chain_Design
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent27612 C:\Users\losyo\Desktop\verilog\Lab4\Lab4_Scan_Chain_Design\Lab4_Scan_Chain_Design.xpr
+# Log file: C:/Users/losyo/Desktop/verilog/Lab4/Lab4_Scan_Chain_Design/vivado.log
+# Journal file: C:/Users/losyo/Desktop/verilog/Lab4/Lab4_Scan_Chain_Design\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/losyo/Desktop/verilog/Lab4/Lab4_Scan_Chain_Design/Lab4_Scan_Chain_Design.xpr
+update_compile_order -fileset sources_1
+file mkdir C:/Users/losyo/Desktop/verilog/Lab4/Lab4_Scan_Chain_Design/Lab4_Scan_Chain_Design.srcs/sources_1/new
+close [ open C:/Users/losyo/Desktop/verilog/Lab4/Lab4_Scan_Chain_Design/Lab4_Scan_Chain_Design.srcs/sources_1/new/Lab4_TeamX_Scan_Chain_Design_tb.v w ]
+add_files C:/Users/losyo/Desktop/verilog/Lab4/Lab4_Scan_Chain_Design/Lab4_Scan_Chain_Design.srcs/sources_1/new/Lab4_TeamX_Scan_Chain_Design_tb.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+source Lab4_TeamX_Scan_Chain_Design_tb.tcl
+current_wave_config {Untitled 1}
+add_wave {{/Lab4_TeamX_Scan_Chain_Design_tb/SCD/s8/Q}} 
+current_wave_config {Untitled 1}
+add_wave {{/Lab4_TeamX_Scan_Chain_Design_tb/SCD/s1/Q}} 
+current_wave_config {Untitled 1}
+add_wave {{/Lab4_TeamX_Scan_Chain_Design_tb/SCD/s1/tmp}} 
+current_wave_config {Untitled 1}
+add_wave {{/Lab4_TeamX_Scan_Chain_Design_tb/SCD/s1/tmp}} 
+current_wave_config {Untitled 1}
+log_wave {/Lab4_TeamX_Scan_Chain_Design_tb/SCD/s1/Q} 
+current_wave_config {Untitled 1}
+add_wave {{/Lab4_TeamX_Scan_Chain_Design_tb/SCD/s1/Q}} 
+current_wave_config {Untitled 1}
+log_wave {/Lab4_TeamX_Scan_Chain_Design_tb/SCD/s1/Q} 
+current_wave_config {Untitled 1}
+report_drivers {/Lab4_TeamX_Scan_Chain_Design_tb/SCD/s1/Q}
+close_sim
+launch_simulation
+source Lab4_TeamX_Scan_Chain_Design_tb.tcl
+close_sim
+launch_simulation
+source Lab4_TeamX_Scan_Chain_Design_tb.tcl
+close_sim
+launch_simulation
+source Lab4_TeamX_Scan_Chain_Design_tb.tcl
+close_sim
+launch_simulation
+source Lab4_TeamX_Scan_Chain_Design_tb.tcl
+close_sim
+launch_simulation
+source Lab4_TeamX_Scan_Chain_Design_tb.tcl
+close_sim
+launch_simulation
+source Lab4_TeamX_Scan_Chain_Design_tb.tcl
+close_sim
+launch_simulation
+source Lab4_TeamX_Scan_Chain_Design_tb.tcl
+close_sim
+launch_simulation
+source Lab4_TeamX_Scan_Chain_Design_tb.tcl
+close_sim
+launch_simulation
+source Lab4_TeamX_Scan_Chain_Design_tb.tcl
+close_sim
+launch_simulation
+launch_simulation
+launch_simulation
+source Lab4_TeamX_Scan_Chain_Design_tb.tcl
+close_sim
+launch_simulation
+source Lab4_TeamX_Scan_Chain_Design_tb.tcl
+close_sim
+launch_simulation
+source Lab4_TeamX_Scan_Chain_Design_tb.tcl
+close_sim
+launch_simulation
+source Lab4_TeamX_Scan_Chain_Design_tb.tcl
+close_sim
+launch_simulation
+source Lab4_TeamX_Scan_Chain_Design_tb.tcl
+close_sim
+launch_simulation
+source Lab4_TeamX_Scan_Chain_Design_tb.tcl
+close_sim

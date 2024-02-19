@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Nov  3 14:42:11 2021
+# Process ID: 157724
+# Current directory: C:/Users/losyo/Desktop/verilog/Lab3_PingPongCounter/Lab3_PingPongCounter.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/losyo/Desktop/verilog/Lab3_PingPongCounter/Lab3_PingPongCounter.sim/sim_1/behav/xsim/xsim.dir/Ping_Pong_Counter_t_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/losyo/Desktop/verilog/Lab3_PingPongCounter/Lab3_PingPongCounter.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/Users/losyo/Desktop/verilog/Lab3_PingPongCounter/Lab3_PingPongCounter.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/losyo/Desktop/verilog/Lab3_PingPongCounter/Lab3_PingPongCounter.sim/sim_1/behav/xsim/xsim.dir/Ping_Pong_Counter_t_behav/webtalk/xsim_webtalk.tcl -notrace
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:12 . Memory (MB): peak = 116.527 ; gain = 17.598
+INFO: [Common 17-206] Exiting Webtalk at Wed Nov  3 14:42:23 2021...

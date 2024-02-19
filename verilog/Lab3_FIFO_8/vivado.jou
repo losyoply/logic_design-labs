@@ -1,0 +1,36 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Oct 26 20:09:51 2021
+# Process ID: 102552
+# Current directory: C:/Users/losyo/Desktop/verilog/Lab3_FIFO_8
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7804 C:\Users\losyo\Desktop\verilog\Lab3_FIFO_8\Lab3_FIFO_8.xpr
+# Log file: C:/Users/losyo/Desktop/verilog/Lab3_FIFO_8/vivado.log
+# Journal file: C:/Users/losyo/Desktop/verilog/Lab3_FIFO_8\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/losyo/Desktop/verilog/Lab3_FIFO_8/Lab3_FIFO_8.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source fifo_tb.tcl
+close_sim
+close_project
+open_project C:/Users/losyo/Desktop/verilog/Lab3_BankMemory/Lab3_BankMemory.xpr
+launch_simulation
+source Multi_Bank_tb.tcl
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+source Multi_Bank_tb.tcl
+close_sim
+launch_simulation
+source Multi_Bank_tb.tcl
+close_sim
+close_project
+open_project C:/Users/losyo/Desktop/verilog/Lab3_RoundRobinFIFO/Lab3_RoundRobinFIFO.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config C:/Users/losyo/Desktop/verilog/Lab3_RoundRobinFIFO/RoundRobinArbiter_tb_behav.wcfg
+source RoundRobinArbiter_tb.tcl
+close_sim

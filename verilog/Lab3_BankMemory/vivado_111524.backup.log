@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Oct 27 13:18:43 2021
+# Process ID: 111524
+# Current directory: C:/Users/losyo/Desktop/verilog/Lab3_BankMemory
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent106292 C:\Users\losyo\Desktop\verilog\Lab3_BankMemory\Lab3_BankMemory.xpr
+# Log file: C:/Users/losyo/Desktop/verilog/Lab3_BankMemory/vivado.log
+# Journal file: C:/Users/losyo/Desktop/verilog/Lab3_BankMemory\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/losyo/Desktop/verilog/Lab3_BankMemory/Lab3_BankMemory.xpr
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/losyo/Desktop/verilog/Lab3_BankMemory/Lab3_BankMemory.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Oct 27 13:58:28 2021...

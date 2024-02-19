@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri Oct 22 16:51:31 2021
+# Process ID: 46440
+# Current directory: C:/Users/losyo/Desktop/verilog/Lab3_FIFO_8/Lab3_FIFO_8.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/losyo/Desktop/verilog/Lab3_FIFO_8/Lab3_FIFO_8.sim/sim_1/behav/xsim/xsim.dir/fifo_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/losyo/Desktop/verilog/Lab3_FIFO_8/Lab3_FIFO_8.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/Users/losyo/Desktop/verilog/Lab3_FIFO_8/Lab3_FIFO_8.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/losyo/Desktop/verilog/Lab3_FIFO_8/Lab3_FIFO_8.sim/sim_1/behav/xsim/xsim.dir/fifo_tb_behav/webtalk/xsim_webtalk.tcl -notrace

@@ -1,0 +1,287 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Mon Nov 22 09:32:02 2021
+| Host         : LAPTOP-3TA24BIJ running 64-bit major release  (build 9200)
+| Command      : report_methodology -file SampleDisplay_methodology_drc_routed.rpt -pb SampleDisplay_methodology_drc_routed.pb -rpx SampleDisplay_methodology_drc_routed.rpx
+| Design       : SampleDisplay
+| Device       : xc7a35tcpg236-1
+| Speed File   : -1
+| Design State : Fully Routed
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 48
++-----------+------------------+-------------------------------+------------+
+| Rule      | Severity         | Description                   | Violations |
++-----------+------------------+-------------------------------+------------+
+| TIMING-17 | Critical Warning | Non-clocked sequential cell   | 8          |
+| LUTAR-1   | Warning          | LUT drives async reset alert  | 1          |
+| SYNTH-13  | Warning          | combinational multiplier      | 1          |
+| TIMING-16 | Warning          | Large setup violation         | 33         |
+| TIMING-18 | Warning          | Missing input or output delay | 4          |
+| TIMING-20 | Warning          | Non-clocked latch             | 1          |
++-----------+------------------+-------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-17#1 Critical Warning
+Non-clocked sequential cell  
+The clock pin playerCtrl_00/ibeat_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#2 Critical Warning
+Non-clocked sequential cell  
+The clock pin playerCtrl_00/ibeat_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#3 Critical Warning
+Non-clocked sequential cell  
+The clock pin playerCtrl_00/ibeat_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#4 Critical Warning
+Non-clocked sequential cell  
+The clock pin playerCtrl_00/ibeat_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#5 Critical Warning
+Non-clocked sequential cell  
+The clock pin playerCtrl_00/ibeat_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#6 Critical Warning
+Non-clocked sequential cell  
+The clock pin playerCtrl_00/ibeat_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#7 Critical Warning
+Non-clocked sequential cell  
+The clock pin playerCtrl_00/ibeat_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#8 Critical Warning
+Non-clocked sequential cell  
+The clock pin playerCtrl_00/ibeat_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+LUTAR-1#1 Warning
+LUT drives async reset alert  
+LUT cell key_de/now__beat_freq[1]_i_2, with 2 or more inputs, drives asynchronous preset/clear pin(s) is_rev_reg/CLR, now__beat_freq_reg[0]/PRE,
+now__beat_freq_reg[0]_replica/PRE, now__beat_freq_reg[0]_replica_1/PRE,
+now__beat_freq_reg[0]_replica_2/PRE, now__beat_freq_reg[0]_replica_3/PRE,
+now__beat_freq_reg[1]/CLR, now__beat_freq_reg[1]_replica/CLR,
+playerCtrl_00/ibeat_reg[0]/CLR, playerCtrl_00/ibeat_reg[1]/CLR,
+playerCtrl_00/ibeat_reg[2]/CLR, playerCtrl_00/ibeat_reg[3]/CLR,
+playerCtrl_00/ibeat_reg[4]/CLR, playerCtrl_00/ibeat_reg[5]/CLR,
+playerCtrl_00/ibeat_reg[6]/CLR (the first 15 of 16 listed). The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+SYNTH-13#1 Warning
+combinational multiplier  
+Detected combinational multiplier in DSP instance btSpeedGen/count_duty0.
+Related violations: <none>
+
+TIMING-16#1 Warning
+Large setup violation  
+There is a large setup violation of -47.725 ns between now__beat_freq_reg[0]_replica_2/C (clocked by sys_clk_pin) and btSpeedGen/count_reg[0]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#2 Warning
+Large setup violation  
+There is a large setup violation of -47.900 ns between now__beat_freq_reg[0]_replica_2/C (clocked by sys_clk_pin) and btSpeedGen/count_reg[1]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#3 Warning
+Large setup violation  
+There is a large setup violation of -48.048 ns between now__beat_freq_reg[0]_replica_2/C (clocked by sys_clk_pin) and btSpeedGen/count_reg[2]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#4 Warning
+Large setup violation  
+There is a large setup violation of -48.113 ns between now__beat_freq_reg[0]_replica_2/C (clocked by sys_clk_pin) and btSpeedGen/count_reg[3]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#5 Warning
+Large setup violation  
+There is a large setup violation of -48.221 ns between now__beat_freq_reg[0]_replica_2/C (clocked by sys_clk_pin) and btSpeedGen/count_reg[4]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#6 Warning
+Large setup violation  
+There is a large setup violation of -48.241 ns between now__beat_freq_reg[0]_replica_2/C (clocked by sys_clk_pin) and btSpeedGen/count_reg[6]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#7 Warning
+Large setup violation  
+There is a large setup violation of -48.317 ns between now__beat_freq_reg[0]_replica_2/C (clocked by sys_clk_pin) and btSpeedGen/count_reg[7]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#8 Warning
+Large setup violation  
+There is a large setup violation of -48.325 ns between now__beat_freq_reg[0]_replica_2/C (clocked by sys_clk_pin) and btSpeedGen/count_reg[5]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#9 Warning
+Large setup violation  
+There is a large setup violation of -48.338 ns between now__beat_freq_reg[0]_replica_2/C (clocked by sys_clk_pin) and btSpeedGen/count_reg[8]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#10 Warning
+Large setup violation  
+There is a large setup violation of -48.358 ns between now__beat_freq_reg[0]_replica_2/C (clocked by sys_clk_pin) and btSpeedGen/count_reg[10]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#11 Warning
+Large setup violation  
+There is a large setup violation of -48.434 ns between now__beat_freq_reg[0]_replica_2/C (clocked by sys_clk_pin) and btSpeedGen/count_reg[11]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#12 Warning
+Large setup violation  
+There is a large setup violation of -48.442 ns between now__beat_freq_reg[0]_replica_2/C (clocked by sys_clk_pin) and btSpeedGen/count_reg[9]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#13 Warning
+Large setup violation  
+There is a large setup violation of -48.455 ns between now__beat_freq_reg[0]_replica_2/C (clocked by sys_clk_pin) and btSpeedGen/count_reg[12]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#14 Warning
+Large setup violation  
+There is a large setup violation of -48.475 ns between now__beat_freq_reg[0]_replica_2/C (clocked by sys_clk_pin) and btSpeedGen/count_reg[14]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#15 Warning
+Large setup violation  
+There is a large setup violation of -48.551 ns between now__beat_freq_reg[0]_replica_2/C (clocked by sys_clk_pin) and btSpeedGen/count_reg[15]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#16 Warning
+Large setup violation  
+There is a large setup violation of -48.559 ns between now__beat_freq_reg[0]_replica_2/C (clocked by sys_clk_pin) and btSpeedGen/count_reg[13]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#17 Warning
+Large setup violation  
+There is a large setup violation of -48.572 ns between now__beat_freq_reg[0]_replica_2/C (clocked by sys_clk_pin) and btSpeedGen/count_reg[16]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#18 Warning
+Large setup violation  
+There is a large setup violation of -48.592 ns between now__beat_freq_reg[0]_replica_2/C (clocked by sys_clk_pin) and btSpeedGen/count_reg[18]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#19 Warning
+Large setup violation  
+There is a large setup violation of -48.668 ns between now__beat_freq_reg[0]_replica_2/C (clocked by sys_clk_pin) and btSpeedGen/count_reg[19]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#20 Warning
+Large setup violation  
+There is a large setup violation of -48.676 ns between now__beat_freq_reg[0]_replica_2/C (clocked by sys_clk_pin) and btSpeedGen/count_reg[17]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#21 Warning
+Large setup violation  
+There is a large setup violation of -48.688 ns between now__beat_freq_reg[0]_replica_2/C (clocked by sys_clk_pin) and btSpeedGen/count_reg[20]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#22 Warning
+Large setup violation  
+There is a large setup violation of -48.708 ns between now__beat_freq_reg[0]_replica_2/C (clocked by sys_clk_pin) and btSpeedGen/count_reg[22]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#23 Warning
+Large setup violation  
+There is a large setup violation of -48.784 ns between now__beat_freq_reg[0]_replica_2/C (clocked by sys_clk_pin) and btSpeedGen/count_reg[23]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#24 Warning
+Large setup violation  
+There is a large setup violation of -48.792 ns between now__beat_freq_reg[0]_replica_2/C (clocked by sys_clk_pin) and btSpeedGen/count_reg[21]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#25 Warning
+Large setup violation  
+There is a large setup violation of -48.805 ns between now__beat_freq_reg[0]_replica_2/C (clocked by sys_clk_pin) and btSpeedGen/count_reg[24]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#26 Warning
+Large setup violation  
+There is a large setup violation of -48.825 ns between now__beat_freq_reg[0]_replica_2/C (clocked by sys_clk_pin) and btSpeedGen/count_reg[26]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#27 Warning
+Large setup violation  
+There is a large setup violation of -48.901 ns between now__beat_freq_reg[0]_replica_2/C (clocked by sys_clk_pin) and btSpeedGen/count_reg[27]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#28 Warning
+Large setup violation  
+There is a large setup violation of -48.909 ns between now__beat_freq_reg[0]_replica_2/C (clocked by sys_clk_pin) and btSpeedGen/count_reg[25]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#29 Warning
+Large setup violation  
+There is a large setup violation of -48.922 ns between now__beat_freq_reg[0]_replica_2/C (clocked by sys_clk_pin) and btSpeedGen/count_reg[28]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#30 Warning
+Large setup violation  
+There is a large setup violation of -48.942 ns between now__beat_freq_reg[0]_replica_2/C (clocked by sys_clk_pin) and btSpeedGen/count_reg[30]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#31 Warning
+Large setup violation  
+There is a large setup violation of -49.018 ns between now__beat_freq_reg[0]_replica_2/C (clocked by sys_clk_pin) and btSpeedGen/count_reg[31]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#32 Warning
+Large setup violation  
+There is a large setup violation of -49.026 ns between now__beat_freq_reg[0]_replica_2/C (clocked by sys_clk_pin) and btSpeedGen/count_reg[29]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#33 Warning
+Large setup violation  
+There is a large setup violation of -51.991 ns between now__beat_freq_reg[0]_replica_2/C (clocked by sys_clk_pin) and btSpeedGen/PWM_reg/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-18#1 Warning
+Missing input or output delay  
+An input delay is missing on PS2_CLK relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#2 Warning
+Missing input or output delay  
+An input delay is missing on PS2_DATA relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#3 Warning
+Missing input or output delay  
+An input delay is missing on rst relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#4 Warning
+Missing input or output delay  
+An output delay is missing on pmod_1 relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-20#1 Warning
+Non-clocked latch  
+The latch key_de/ENTER_reg cannot be properly analyzed as its control pin key_de/ENTER_reg/G is not reached by a timing clock
+Related violations: <none>
+
+
